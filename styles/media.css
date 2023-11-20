@@ -1,0 +1,74 @@
+@media only screen and (max-width: 576px){
+    :root{
+        --primary: #FF6464;
+        --secondry: #00A8CC;
+        --dark: #21243D;
+        --light: #8695A4;
+    }
+    header nav .mobile-icon{
+        display: block;
+    }
+    header .parent {
+        text-align: center;
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding-top: 33px;
+        gap: 43px;
+        margin-top: 10px;
+    }
+    Header .parent-item h1{
+        color: var(--dark);
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    header .parent-item p{
+        color: var(--dark);
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .post .parent{
+        flex-direction: column;
+        row-gap: 17px;
+    }
+    .post .parent span{
+        color: var(--dark);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 60px;
+    }
+    .post .parent-item h3{
+        color: var(--dark);
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    .post .parent-item span{
+        color: var(--dark);
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .post .parent-item p{
+        color: var(--dark);
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .spase-btw a{
+       display: none;
+    }
+
+    .works .titel span{
+        display: inline-block;
+        color: var(--dark);
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 60px;
+    }
+    .works .box{
+        flex-direction: column;
+    }
+    .works .box-child img{
+        width: 100%;
+    }
+}
